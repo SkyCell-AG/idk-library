@@ -1,7 +1,7 @@
 {
-  "name": "scd-library",
+  "name": "skymind-component-library",
   "version": "1.0.0",
-  "description": "Dcl SDK Library",
+  "description": "SCD Component Library",
   "main": "./dist/index.js",
   "types": "./dist/index.d.ts",
   "scripts": {
@@ -15,12 +15,14 @@
     "main": "./dist/index.js"
   },
   "keywords": [
-    "dcl",
-    "decentraland",
-    "sdk",
+    "skymind",
+    "scd",
+    "component",
+    "skycell",
+    "skycell-ag",
     "library"
   ],
-  "author": "-",
+  "author": "SkyMind Team",
   "license": "Apache-2.0",
   "repository": {
     "type": "git",
@@ -48,8 +50,7 @@
   },
   "engines": {
     "node": ">=16.0.0",
-    "npm": ">=8.0.0",
-    "yarn": "please use npm"
+    "npm": ">=8.0.0"
   },
   "dependencies": {
     "json5": "^2.2.3"
