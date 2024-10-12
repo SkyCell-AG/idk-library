@@ -37,13 +37,21 @@
     "@rollup/plugin-typescript": "^12.1.0",
     "@types/jest": "^29.5.13",
     "decentraland-ecs": "latest",
+    "follow-redirects": "^1.15.9",
     "jest": "^29.7.0",
     "rollup": "^4.24.0",
-    "ts-jest": "^29.2.5"
+    "tough-cookie": "^5.0.0",
+    "ts-jest": "^29.2.5",
+    "braces": "^3.0.3",
+    "ws": "^8.18.0",
+    "@babel/traverse": "^7.25.7"
   },
   "engines": {
     "node": ">=16.0.0",
     "npm": ">=8.0.0",
     "yarn": "please use npm"
+  },
+  "dependencies": {
+    "json5": "^2.2.3"
   }
 }
